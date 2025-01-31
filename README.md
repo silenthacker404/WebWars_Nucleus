@@ -20,8 +20,7 @@ Shantanu Yadav
 
 1.  Clone the repository --
    
-git clone https://github.com/your-repo/webwars-2025.git
-cd webwars-2025
+git clone https://github.com/silenthacker404/WebWars_Nucleus
 
 2. Install dependencies --
 
