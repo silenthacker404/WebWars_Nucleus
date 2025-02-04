@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCSAI 2025 - WebWars</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
+</head>
+<body>
+
+    
+    <header class="hero">
+        <h1>ICCSAI 2025 - WebWars</h1>
+        <p>Showcase your web development skills to a global audience!</p>
+        <button id="login-btn" class="btn">Login</button>
+    </header>
+
+   
+    <section id="leaderboard">
+        <h2>🏆 Leaderboard</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-data"></tbody>
+        </table>
+    </section>
+
+    
+    <section id="api-section">
+        <h2>🌍 Event Details</h2>
+        <div id="event-details">Loading...</div>
+    </section>
+
+    <!--(Authentication) -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button id="sign-in" class="btn">Sign In</button>
+            <button id="sign-up" class="btn">Sign Up</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ICCSAI | Designed for WebWars</p>
+    </footer>
+
+</body>
+</html>
