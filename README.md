@@ -32,7 +32,7 @@ git clone https://github.com/silenthacker404/WebWars_Nucleus
 
 4. Open in browser --
 
-   Visit http://localhost: ( will be added after some days )
+   First read the file inside the webwars_nucleus folder " Read Before Running "
 
 
 .................................. Thank You .....................................
