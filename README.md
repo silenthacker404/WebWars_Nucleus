@@ -17,7 +17,7 @@ HTML , Tailwind CSS and Javascripts.
 
 1. Download the main folder. 
 
-2. Run index.html.
+2. Run index.html in Visual Studio Code.
 
 3. Enjoy the website and its fresh UI.
 
